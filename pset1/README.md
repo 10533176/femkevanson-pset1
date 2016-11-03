@@ -1,3 +1,3 @@
 READ ME FILE 
 
-![ScreenShot](https://raw.github.com/10533176/femkevanson-pset1/master/doc/Screen Shot 2016-11-03 at 15.42.56.png)
+![ScreenShot](https://raw.github.com/10533176/femkevanson-pset1/master/doc/Simulator Screen Shot 3 nov. 2016 20.38.16.png)
