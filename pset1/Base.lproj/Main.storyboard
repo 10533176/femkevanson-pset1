@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pset1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,336 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="5d8-ii-wcP">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1d-2d-0H2">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="XEf-0O-lhK">
+                                                <frame key="frameInset" minX="-5" minY="-24" width="366" height="374"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="3zR-qh-1dc">
+                                                <frame key="frameInset" minX="-6" minY="-51" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="mlK-cH-MgA">
+                                                <frame key="frameInset" minX="-7" minY="-31" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="UiK-IT-MKe">
+                                                <frame key="frameInset" minY="-68" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ears" translatesAutoresizingMaskIntoConstraints="NO" id="jDZ-JQ-ga0">
+                                                <frame key="frameInset" minX="-5" minY="-46" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="eyebrows" translatesAutoresizingMaskIntoConstraints="NO" id="PmY-S0-Ctc">
+                                                <frame key="frameInset" minX="-10" minY="-21" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-dd-oiG">
+                                                <frame key="frameInset" minX="-11" minY="-29" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="glasses" translatesAutoresizingMaskIntoConstraints="NO" id="Zsy-zo-Fd1">
+                                                <frame key="frameInset" minX="-12" minY="-25" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="74e-J1-M7G">
+                                                <frame key="frameInset" minX="-13" minY="-53" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mouth" translatesAutoresizingMaskIntoConstraints="NO" id="TEy-iy-9eE">
+                                                <frame key="frameInset" minX="-12" minY="-49" width="367" height="428"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-j1-AnU">
+                                                <frame key="frameInset" minX="-13" minY="-64" width="367" height="424"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLE-P0-5Wt">
+                                        <subviews>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9RY-JY-qRB">
+                                                <frame key="frameInset" minX="267" minY="86" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="armsSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="GdT-4j-F9R"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q9b-L6-VMp">
+                                                <frame key="frameInset" minX="267" minY="125" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="earsSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="VbQ-g2-4Wd"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zbf-Uo-xZU">
+                                                <frame key="frameInset" minX="267" minY="164" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="eyesSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="ED3-CI-xRt"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tez-i9-qeZ">
+                                                <frame key="frameInset" minX="267" minY="203" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="noseSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="HXa-qH-Ddw"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W1u-w6-1sQ">
+                                                <frame key="frameInset" minX="267" minY="242" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="hatSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="C6u-o5-eKC"/>
+                                                </connections>
+                                            </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDm-aH-glJ">
+                                                <frame key="frameInset" minX="222" minY="130" width="33" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="ears">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-ca-Pid">
+                                                <frame key="frameInset" minX="215" minY="169" width="40" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="eyes">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmO-BS-M7F">
+                                                <frame key="frameInset" minX="217" minY="208" width="38" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="nose">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W00-di-VKg">
+                                                <frame key="frameInset" minX="230" minY="247" width="25" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="hat">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbk-Br-Dtr">
+                                                <frame key="frameInset" minX="60" minY="86" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="shoesSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="LWF-Dc-HHQ"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3l5-Ls-drH">
+                                                <frame key="frameInset" minX="60" minY="125" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="mouthSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="TYN-aY-Mbw"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iEp-TU-rIa">
+                                                <frame key="frameInset" minX="60" minY="164" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="glassesSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="vFS-Kf-5yh"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xE-Dy-Rru">
+                                                <frame key="frameInset" minX="60" minY="203" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="eyebrowsSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="tBa-qN-z2I"/>
+                                                </connections>
+                                            </switch>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94C-fP-tcK">
+                                                <frame key="frameInset" minX="60" minY="242" width="51" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="moustacheSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="EMT-FJ-HSc"/>
+                                                </connections>
+                                            </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyJ-Ms-6QG">
+                                                <frame key="frameInset" minX="117" minY="91" width="46" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="shoes">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIt-Wr-ZgY">
+                                                <frame key="frameInset" minX="117" minY="130" width="50" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="mouth">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-1X-nEH">
+                                                <frame key="frameInset" minX="117" minY="169" width="58" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="glasses">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-2a-BRw">
+                                                <frame key="frameInset" minX="117" minY="208" width="74" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="eyebrows">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAQ-dm-TBd">
+                                                <frame key="frameInset" minX="117" minY="247" width="85" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="moustache">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbh-hv-XTv">
+                                                <frame key="frameInset" minX="220" minY="91" width="39" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="arms">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-UltraLight"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="IUR-ij-UxJ">
+                                                <frame key="frameInset" minX="35" minY="8" width="304" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Let’s dress Mr. Potato Head!">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.44057836787564775" green="0.44057836787564775" blue="0.44057836787564775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="26" name="HelveticaNeue-UltraLight"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                            <color key="NSStrokeColor" red="0.50575000000000003" green="0.50575000000000003" blue="0.50575000000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5d8-ii-wcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RPs-ym-c72"/>
+                            <constraint firstItem="5d8-ii-wcP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dRc-bz-JKg"/>
+                            <constraint firstItem="5d8-ii-wcP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eAN-gt-Gfg"/>
+                            <constraint firstAttribute="trailing" secondItem="5d8-ii-wcP" secondAttribute="trailing" id="kJU-me-L2v"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5d8-ii-wcP" secondAttribute="bottom" id="spw-Ga-dQf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="arms" destination="3zR-qh-1dc" id="kfQ-uR-sQA"/>
+                        <outlet property="armsSwitch" destination="9RY-JY-qRB" id="PbF-ax-g5V"/>
+                        <outlet property="body" destination="XEf-0O-lhK" id="fMl-Ul-dVl"/>
+                        <outlet property="ears" destination="jDZ-JQ-ga0" id="WBu-kF-DA2"/>
+                        <outlet property="earsSwitch" destination="q9b-L6-VMp" id="iWj-f2-gZh"/>
+                        <outlet property="eyebrows" destination="PmY-S0-Ctc" id="Rso-8t-u6p"/>
+                        <outlet property="eyebrowsSwitch" destination="2xE-Dy-Rru" id="u8G-EI-epo"/>
+                        <outlet property="eyes" destination="WFY-dd-oiG" id="E7D-o1-igU"/>
+                        <outlet property="eyesSwitch" destination="Zbf-Uo-xZU" id="da5-UZ-wn7"/>
+                        <outlet property="glasses" destination="Zsy-zo-Fd1" id="jFh-OC-Pf7"/>
+                        <outlet property="glassesSwitch" destination="iEp-TU-rIa" id="Uo2-2T-7Yl"/>
+                        <outlet property="hat" destination="mlK-cH-MgA" id="Cnx-mX-MEw"/>
+                        <outlet property="hatSwitch" destination="W1u-w6-1sQ" id="RW2-qp-FwQ"/>
+                        <outlet property="moustache" destination="xnT-j1-AnU" id="Y0f-cQ-ikN"/>
+                        <outlet property="moustacheSwitch" destination="94C-fP-tcK" id="PPE-n2-ffg"/>
+                        <outlet property="mouth" destination="TEy-iy-9eE" id="zgx-2O-jRG"/>
+                        <outlet property="mouthSwitch" destination="3l5-Ls-drH" id="jWR-GL-FYX"/>
+                        <outlet property="nose" destination="74e-J1-M7G" id="EKL-Ys-Piw"/>
+                        <outlet property="noseSwitch" destination="tez-i9-qeZ" id="SJC-1Q-cdM"/>
+                        <outlet property="shoes" destination="UiK-IT-MKe" id="0iU-IW-Mh3"/>
+                        <outlet property="shoesSwitch" destination="hbk-Br-Dtr" id="n6Q-dD-h2J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="405.60000000000002" y="125.4872563718141"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arms" width="367" height="428"/>
+        <image name="body" width="367" height="428"/>
+        <image name="ears" width="367" height="428"/>
+        <image name="eyebrows" width="367" height="428"/>
+        <image name="eyes" width="367" height="428"/>
+        <image name="glasses" width="367" height="428"/>
+        <image name="hat" width="367" height="428"/>
+        <image name="mouth" width="367" height="428"/>
+        <image name="mustache" width="367" height="428"/>
+        <image name="nose" width="367" height="428"/>
+        <image name="shoes" width="367" height="428"/>
+    </resources>
 </document>
