@@ -1,5 +1,6 @@
 MR. POTATO HEAD THE APP 
-Put eyes/ nose/ arms etc. on or off Mr. potato head. 
+<break>
+Put eyes/ nose/ arms etc. on or of Mr. potato head. 
 
 Screen shots: 
 
