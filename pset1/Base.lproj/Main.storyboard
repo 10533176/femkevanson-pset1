@@ -63,7 +63,7 @@
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-j1-AnU">
-                                                <frame key="frameInset" minX="-13" minY="-64" width="367" height="431"/>
+                                                <frame key="frameInset" minX="-13" minY="-59" width="367" height="431"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                         </subviews>
